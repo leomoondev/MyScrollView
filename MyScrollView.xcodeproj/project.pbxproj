@@ -14,6 +14,7 @@
 		DAC877C41E5B521800E53107 /* MyScrollView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DAC877C21E5B521800E53107 /* MyScrollView.xcdatamodeld */; };
 		DAC877C61E5B521800E53107 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAC877C51E5B521800E53107 /* Assets.xcassets */; };
 		DAC877C91E5B521800E53107 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAC877C71E5B521800E53107 /* LaunchScreen.storyboard */; };
+		DAC877D21E5B580200E53107 /* MyScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC877D11E5B580200E53107 /* MyScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,8 @@
 		DAC877C51E5B521800E53107 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DAC877C81E5B521800E53107 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DAC877CA1E5B521800E53107 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAC877D01E5B580200E53107 /* MyScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyScrollView.h; sourceTree = "<group>"; };
+		DAC877D11E5B580200E53107 /* MyScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyScrollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +73,8 @@
 				DAC877CA1E5B521800E53107 /* Info.plist */,
 				DAC877C21E5B521800E53107 /* MyScrollView.xcdatamodeld */,
 				DAC877B61E5B521800E53107 /* Supporting Files */,
+				DAC877D01E5B580200E53107 /* MyScrollView.h */,
+				DAC877D11E5B580200E53107 /* MyScrollView.m */,
 			);
 			path = MyScrollView;
 			sourceTree = "<group>";
@@ -157,6 +162,7 @@
 				DAC877BE1E5B521800E53107 /* ViewController.m in Sources */,
 				DAC877C41E5B521800E53107 /* MyScrollView.xcdatamodeld in Sources */,
 				DAC877BB1E5B521800E53107 /* AppDelegate.m in Sources */,
+				DAC877D21E5B580200E53107 /* MyScrollView.m in Sources */,
 				DAC877B81E5B521800E53107 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

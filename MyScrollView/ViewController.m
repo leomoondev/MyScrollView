@@ -19,6 +19,11 @@
     // Do any additional setup after loading the view, typically from a nib.
 }
 
+- (void) viewDidAppear:(BOOL)animated {
+    
+    self.view.frame = CGRectMake(self.view.frame.origin.x, -100, self.view.frame.size.width, self.view.frame.size.height);
+
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
